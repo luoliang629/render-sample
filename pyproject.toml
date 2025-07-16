@@ -1,0 +1,13 @@
+[project]
+name = "render-sample"
+version = "0.1.0"
+description = "A FastAPI hello world web app managed by uv."
+authors = ["luoliang <your_email@example.com>"]
+requires-python = ">=3.8"
+
+[project.dependencies]
+fastapi = "*"
+uvicorn = "*"
+
+[tool.uv]
+# uv 相关配置（如有特殊配置需求可补充） 
